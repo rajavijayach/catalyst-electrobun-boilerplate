@@ -1,0 +1,16 @@
+node_modules/
+.DS_Store
+
+# Root tooling artifacts
+npm-debug.log*
+
+# Monorepo app artifacts
+apps/web/node_modules/
+apps/web/build/
+apps/web/logs/
+apps/desktop/node_modules/
+apps/desktop/dist/
+apps/desktop/.electrobun/
+apps/desktop/build/
+apps/desktop/artifacts/
+apps/desktop/bun.lockb

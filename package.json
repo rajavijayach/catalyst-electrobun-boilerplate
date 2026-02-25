@@ -1,0 +1,22 @@
+{
+  "name": "catalyst-electrobun-boilerplate",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "description": "Monorepo boilerplate with Catalyst web app and Electrobun desktop shell",
+  "scripts": {
+    "setup": "npm run setup:web && npm run setup:desktop",
+    "setup:web": "npm install --prefix apps/web",
+    "setup:desktop": "bun install --cwd apps/desktop",
+    "dev": "concurrently -k -n WEB,DESKTOP -c blue,green \"npm run dev:web\" \"npm run dev:desktop\"",
+    "dev:web": "npm run start --prefix apps/web",
+    "dev:desktop": "bun run --cwd apps/desktop dev:hmr",
+    "lint": "npm run lint --prefix apps/web && bun run --cwd apps/desktop build:ui",
+    "build:web": "npm run build --prefix apps/web",
+    "build:desktop": "bun run --cwd apps/desktop build:canary",
+    "build": "npm run build:web && npm run build:desktop"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
