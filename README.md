@@ -1,7 +1,5 @@
-# Project Name
-Catalyst Electrobun Boilerplate
-
-Short description: Monorepo starter with a Catalyst web app and an Electrobun desktop shell that loads the web app.
+# Catalyst Electrobun Boilerplate
+Monorepo starter with a Catalyst web app and an Electrobun desktop shell that loads the web app.
 
 ## Tech Stack
 - Catalyst (`catalyst-core`) for web app
