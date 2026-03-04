@@ -28,7 +28,7 @@
         "@modelcontextprotocol/sdk": "^1.27.1",
         "@tailwindcss/postcss": "^4.1.4",
         "@tata1mg/router": "0.0.1-beta.7",
-        "catalyst-core": "0.1.0-canary.4",
+        "catalyst-core": "0.1.0-canary.5",
         "tailwindcss": "^4.1.4"
     },
     "devDependencies": {
