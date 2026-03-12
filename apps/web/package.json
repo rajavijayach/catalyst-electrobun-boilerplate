@@ -29,7 +29,7 @@
         "@tailwindcss/postcss": "^4.1.4",
         "@tata1mg/router": "0.0.1-beta.7",
         "catalyst-core": "0.1.0-canary.4",
-        "tailwindcss": "^4.1.4"
+        "tailwindcss": "^4.2.1"
     },
     "devDependencies": {
         "eslint": "^8.26.0",
